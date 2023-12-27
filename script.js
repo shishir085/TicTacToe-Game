@@ -29,6 +29,7 @@ boxes.forEach((box) => {
 
         if (turnO) {
             box.innerText = "O"
+            box.style.color="black"
             turnO = false
         }
         else {

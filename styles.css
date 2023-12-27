@@ -69,14 +69,19 @@ body {
     background-color:  #00877E;
     color: white;
     font-size: 19px;
+    margin-bottom: 50px;
+
 }
 #msg{
     color: #ffffff;
     font-size:30px ;
+    margin-bottom: 50px;
 
    
 }
 
 .hide{
     display:none ;
+   
+
 }
