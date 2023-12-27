@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: #00877E;
-    font-family: Arial, sans-serif;
+    background-color:#3C91E6;
+    font-family: 'Poppins', sans-serif;
 
     text-align: center;
 }
@@ -22,12 +22,12 @@ body {
 .game {
     height: 60vmin;
     width: 60vmin;
-    
+
     display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5vmin;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
 
 
 }
@@ -36,22 +36,47 @@ body {
     height: 17vmin;
     width: 17vmin;
     border-radius: 14px;
-    border: none ;
-    box-shadow: 0 0 16px rgba(0, 0, 0, .2) ;
-    font-size:50px ;
+    border: none;
+    box-shadow: 0 0 16px rgba(0, 0, 0, .2);
+    font-size: 50px;
     color: #ff0000;
-   
+    background-color: #d4d4d4;
+
 }
-#reset{
+
+#reset {
     height: 45px;
-    width: 120px;
+    width: 140px;
     padding: 9px;
     border-radius: 15px;
     border: none;
-    background-color: #525252;
+    background-color:  #00877E;
     color: white;
-    font-size: 18px;
+    font-size: 19px;
 }
-#reset:hover ,  .box:hover{
-cursor: pointer;
+
+#reset:hover,
+.box:hover ,#newgame:hover{
+    cursor: pointer;
+}
+
+#newgame{
+    height: 45px;
+    width: 140px;
+    padding: 9px;
+    border-radius: 15px;
+    border: none;
+    background-color:  #00877E;
+    color: white;
+    font-size: 19px;
+}
+#msg{
+    color: #ffffff;
+    font-size:30px ;
+
+   
+}
+
+.hide{
+    display:none ;
 }
