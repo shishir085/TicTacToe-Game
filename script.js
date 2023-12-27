@@ -55,7 +55,9 @@ const enablebox = () => {
 };
 
 const showwinner = (winner) => {
-    msg.innerText = `Congrulations, Winner is ${winner}`;
+    msg.innerText = `Congratulations, Winner is ${winner}`;
+    // seplling of congrotulation
+
     msgcontainer.classList.remove("hide");
     disblebox();
 };
